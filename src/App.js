@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import "semantic-ui-css/semantic.min.css";
 // import logo from "./logo.svg";
 // import Button from "./modules/Button";
 // import P from "./modules/P";
-import SourceList from "./modules/SourceList";
+// import SourceList from "./modules/SourceList";
+import NewsList from "./modules/NewsList";
 import "./App.css";
 import axios from "axios";
 
@@ -12,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SourceList />
+        <NewsList />
       </div>
     );
   }

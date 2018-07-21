@@ -1,7 +1,7 @@
 // bikin static komponen nya
 // panggil via api
 // yang mau di tampilkan adalah sumber berita
-import "semantic-ui-css/semantic.min.css";
+// import "semantic-ui-css/semantic.min.css";
 import React from "react";
 import { Card, Icon, Image, Segment, Dimmer, Loader } from "semantic-ui-react";
 import axios from "axios";
